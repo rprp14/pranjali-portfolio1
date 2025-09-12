@@ -19,36 +19,31 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am deeply passionate about <b className="purple">Data Analytics</b> 
+              and <b className="purple">DevOps</b>, where I love turning raw data into 
+              insights and building efficient, scalable systems. 📊⚙️
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I have strong foundations in languages and tools like{" "}
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Python, SQL, Bash, and Html, Css. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My areas of interest include{" "}
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple">Data Visualization, Cloud Platforms, Automation, </b>
+                and{" "}
+                <b className="purple">Continuous Integration/Deployment (CI/CD)</b>.
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Whenever possible, I try to blend{" "}
+              <b className="purple">Analytics</b> with{" "}
+              <b className="purple">DevOps Practices</b> to create smarter 
+              solutions using{" "}
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple">Docker, Kubernetes, and modern BI tools</b>.
               </i>
             </p>
           </Col>
@@ -67,37 +62,37 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/rprp14"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://x.com/PranjaliBo29130"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiOutlineTwitter />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/pranjali-bodke-404111282/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/pranjal_bodke/?next=%2F"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

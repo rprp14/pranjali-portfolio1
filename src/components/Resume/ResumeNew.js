@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Soumyajit_Behera-BIT_MESRA.pdf";
+import pdf from "../../Assets/resume (2).pdf"; // <-- your resume here
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
@@ -19,6 +20,13 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
+
+        {/* Heading with your name */}
+        <Row style={{ justifyContent: "center", marginBottom: "20px" }}>
+          <h2 className="purple">Pranjali Bodke – Resume</h2>
+        </Row>
+
+        {/* Top Download Button */}
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
@@ -31,12 +39,16 @@ function ResumeNew() {
           </Button>
         </Row>
 
+        {/* PDF Viewer */}
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+            {/* If your resume has more than 1 page, uncomment below */}
+            {/* <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} /> */}
           </Document>
         </Row>
 
+        {/* Bottom Download Button */}
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
